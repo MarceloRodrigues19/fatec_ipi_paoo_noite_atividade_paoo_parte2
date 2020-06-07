@@ -1,4 +1,4 @@
-package br.com.JM.fatec_ipi_paoo_observer;
+package br.com.fatec_ipi_paoo_observer;
 
 public class StatsDisplay implements Observer{
 	private double historicoTemps;
