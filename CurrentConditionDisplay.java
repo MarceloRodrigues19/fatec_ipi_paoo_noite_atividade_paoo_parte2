@@ -6,7 +6,7 @@ public class CurrentConditionDisplay implements Observer {
 	private NumberFormat percentFormat = NumberFormat.getPercentInstance();
 	
 	public void update(double t, double h, double p) {
-		System.out.println("-------Condições Atuais--------");
+		System.out.println("Condicoes atuais");
 		System.out.printf("Temp: %.2f, Hum : %s, Pres: %.2f\n", t, percentFormat.format(h), p);
 	}
 }

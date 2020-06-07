@@ -23,7 +23,7 @@ public class MediaHistoryDisplay implements Observer {
 				somaTemp += d;
 			}
 			
-			System.out.println("---------Média histórica - ultimas 10----------");
+			System.out.println("Media histórica - das ultimas 10 temperaturas:");
 			System.out.printf("%.2f\n", (somaTemp/10));
 		}
 	}

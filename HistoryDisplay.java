@@ -19,7 +19,7 @@ public class HistoryDisplay implements Observer {
 		
 		
 		if (temps.size() == 10) {
-			System.out.println("---------Histórico - ultimas 10----------");
+			System.out.println("Historico - ultimas 10 temperaturas:");
 			for (Double d : temps) {
 				System.out.printf("%.2f\n", d);
 			}			

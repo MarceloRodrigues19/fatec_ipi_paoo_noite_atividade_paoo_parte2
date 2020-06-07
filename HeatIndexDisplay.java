@@ -17,10 +17,9 @@ public class HeatIndexDisplay implements Observer {
 		// TODO Auto-generated method stub
 	    double temp = t * t;
 	    double hum = h * h;	
-	    double indice = C1 + (C2 * t) + (C3 * h) + (C4 * t * h) + (C5 * temp) + (C6 * hum) + (C7 * temp * h) + (C8 * t *hum) 
-	    		+ (C9 * temp * hum);
+	    double indice = C1 + (C2 * t) + (C3 * h) + (C4 * t * h) + (C5 * temp) + (C6 * hum) + (C7 * temp * h) + (C8 * t *hum) + (C9 * temp * hum);
 	    
-	    System.out.println("---------Indice de calor----------"); 
+	    System.out.println("Indice de calor:");
 	    System.out.printf("Indice: %.2f\n", indice);
 	    System.out.println();
 	}

@@ -6,9 +6,6 @@ import java.util.Random;
 
 public class WeatherData implements Subject{
 	
-//	CurrentConditionDisplay currentConditionDisplay;
-//	StatsDisplay statsDisplay;
-//	ForecastDisplay forecastDisplay;
 	private List<Observer> observers;
 	private Random gerador = new Random();
 	private double temperature, humidity, pressure;
@@ -18,15 +15,12 @@ public class WeatherData implements Subject{
 	}
 	
 	public double getTemperature() {
-//		throw new UnsupportedOperationException(); //serve pra teste de compilação.
 		return this.temperature;
 	}
 	public double getHumidity() {
-//		throw new UnsupportedOperationException();
 		return this.humidity;
 	}
 	public double getPressure() {
-//		throw new UnsupportedOperationException();
 		return this.pressure;
 	}
 	public void measurementsChanged() {
@@ -60,7 +54,6 @@ public class WeatherData implements Subject{
 	public void iniciar() {
 		while(true) {
 			setMeasurements();
-			
 			try {
 				Thread.sleep(2500);
 			} catch (InterruptedException e) {

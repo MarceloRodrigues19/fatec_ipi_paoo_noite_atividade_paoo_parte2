@@ -1,6 +1,6 @@
 package br.com.JM.fatec_ipi_paoo_observer;
 
-public class TesteEstacaoMonitoramento {
+public class TestStationMonitoring {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
